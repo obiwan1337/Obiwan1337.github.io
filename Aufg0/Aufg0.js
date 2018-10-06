@@ -4,7 +4,7 @@ var aufgabe0;
     function main() {
         var txt = prompt("whats your name?");
         var node = document.getElementById("dembody");
-        node.innerHTML += "Hey there";
+        node.innerHTML += "Hey there ";
         node.innerHTML += txt;
         node.innerHTML += ", glad you are with us.";
         console.log(txt);
