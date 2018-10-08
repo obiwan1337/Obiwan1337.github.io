@@ -9,7 +9,7 @@ main {
 h2 {
   font-size: 1.3em;
 }
-main.a {
+a {
   color: hotpink;
 }
 a:visited {
@@ -21,3 +21,7 @@ section.a {
   height: 100px;
     max-width: 100%;
  }
+body
+{
+  background-color: lightblue;
+}
