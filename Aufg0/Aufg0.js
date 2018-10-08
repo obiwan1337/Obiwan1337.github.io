@@ -1,13 +1,12 @@
 var aufgabe0;
 (function (aufgabe0) {
-    var txt = "";
     function main() {
-        txt = prompt("whats your name?");
-        var node = document.getElementById("dembody");
-        node.innerHTML += "Hey there ";
-        node.innerHTML += txt;
-        node.innerHTML += ", glad you are with us.";
-        console.log(txt);
+        var input = prompt("whats your name?");
+        var txt = document.getElementById("dembody");
+        txt += "Hey there  " + input + ", glad you are with us.";
+        ;
+        console.log(input);
+        document.getElementById("dembody").innerHTML += txt;
     }
     document.addEventListener('DOMContentLoaded', main);
 })(aufgabe0 || (aufgabe0 = {}));

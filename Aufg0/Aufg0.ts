@@ -1,13 +1,14 @@
 namespace aufgabe0 {
-  let txt : string ="";
+
 
     function main() {
-        txt = prompt("whats your name?");
-        let node : any = document.getElementById("dembody");
-        node.innerHTML += "Hey there ";
-        node.innerHTML += txt;
-        node.innerHTML += ", glad you are with us.";
-        console.log(txt);
+      let  input : string = prompt("whats your name?");
+        let txt : any = document.getElementById("dembody");
+        txt += "Hey there  " + input + ", glad you are with us.";;
+
+        console.log(input);
+          document.getElementById("dembody").innerHTML+= txt;
         }
+
     document.addEventListener('DOMContentLoaded',main);
 }
