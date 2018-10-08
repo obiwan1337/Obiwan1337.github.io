@@ -2,20 +2,12 @@ var node = document.getElementById("main");
 var number = 0;
 while (number < 1) {
     var htmlnode = "";
-    htmlnode += "<html lang=en>";
-    htmlnode += "<head>";
-    htmlnode += "<meta charset= 'UTF-8' >";
-    htmlnode += "<title>customwebsite</title>";
-    htmlnode += "<link rel=";
-    htmlnode += "href=";
-    htmlnode += "index.css";
-    htmlnode += ">";
-    htmlnode += '"stylesheet"';
-    htmlnode += " type=";
-    htmlnode += '"text/css"';
-    htmlnode += "href=";
-    htmlnode += "index.css";
-    htmlnode += ">";
+    htmlnode += "<h2> A small page</h2>";
+    htmlnode += '<a href=';
+    htmlnode += ' "https://obiwan1337.github.io/EIA2/Aufg0/aufg0.html" ';
+    htmlnode += 'target=';
+    htmlnode += ' "_blank" ';
+    htmlnode += '>Aufgabe0</a>';
     node.innerHTML += htmlnode;
     number++;
 }
