@@ -1,12 +1,13 @@
-namespace aufgabe0 {
-    function main() {
+namespace aufg0 {
+    function question() {
       let  input : string = prompt("whats your name?");
-        let txt : any = document.getElementById("dembody");
+        let txt : string;
         txt += "Hey there  " + input + ", glad you are with us.";
 
-        console.log(input);
+
         document.getElementById("dembody").innerHTML+= txt;
+        console.log(input);
         }
 
-    document.addEventListener('DOMContentLoaded',main);
+    document.addEventListener('DOMContentLoaded',question);
 }

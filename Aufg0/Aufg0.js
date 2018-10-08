@@ -1,11 +1,11 @@
-var aufgabe0;
-(function (aufgabe0) {
-    function main() {
+var aufg0;
+(function (aufg0) {
+    function question() {
         var input = prompt("whats your name?");
-        var txt = document.getElementById("dembody");
+        var txt;
         txt += "Hey there  " + input + ", glad you are with us.";
-        console.log(input);
         document.getElementById("dembody").innerHTML += txt;
+        console.log(input);
     }
-    document.addEventListener('DOMContentLoaded', main);
-})(aufgabe0 || (aufgabe0 = {}));
+    document.addEventListener('DOMContentLoaded', question);
+})(aufg0 || (aufg0 = {}));
