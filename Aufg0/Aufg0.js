@@ -4,7 +4,6 @@ var aufgabe0;
         var input = prompt("whats your name?");
         var txt = document.getElementById("dembody");
         txt += "Hey there  " + input + ", glad you are with us.";
-        ;
         console.log(input);
     }
     document.addEventListener('DOMContentLoaded', main);
