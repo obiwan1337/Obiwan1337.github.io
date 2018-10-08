@@ -1,13 +1,8 @@
-var node = document.getElementById("main");
+var node = document.getElementById("burg");
 var number = 0;
 while (number < 1) {
     var htmlnode = "";
-    htmlnode += "<h2> A small page</h2>";
-    htmlnode += '<a href=';
-    htmlnode += ' "https://obiwan1337.github.io/EIA2/Aufg0/aufg0.html" ';
-    htmlnode += 'target=';
-    htmlnode += ' "_blank" ';
-    htmlnode += '>Aufgabe0</a>';
+    htmlnode += "<h2> A SMaLL page</h2>";
     node.innerHTML += htmlnode;
     number++;
 }
