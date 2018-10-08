@@ -1,19 +1,16 @@
-body {
+main {
   margin-left: 25%;
   margin-right:25%;
   background-color: lightblue;
 }
-
-#burg {
-  height: 100px;
-    max-width: 100%;
- }
-
- main{
-    position:relative;
- }
 h2 {
   background-color: green;
   font-size: 1.3em;
 }
+section {
   
+}
+#burg {
+  height: 100px;
+    max-width: 100%;
+ }
