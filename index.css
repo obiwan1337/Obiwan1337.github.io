@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin-left: 25%;
   margin-right:25%;
-  max-height: 100%;
+
   background-color: lightblue;
 }
 h2 {
@@ -13,8 +13,6 @@ a {
 }
 a:visited {
     color: red;
-section.a {
-
 }
 #burg {
   height: 100px;
