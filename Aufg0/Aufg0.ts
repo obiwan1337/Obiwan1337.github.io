@@ -7,7 +7,7 @@ namespace aufgabe0 {
         txt += "Hey there  " + input + ", glad you are with us.";;
 
         console.log(input);
-          document.getElementById("dembody").innerHTML+= txt;
+          
         }
 
     document.addEventListener('DOMContentLoaded',main);
