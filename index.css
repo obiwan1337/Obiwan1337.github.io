@@ -1,16 +1,19 @@
 main {
+  text-align: center;
   border-style: dotted;
   margin-left: 25%;
   margin-right:25%;
   background-color: lightblue;
+  max-height: 100%;
 }
 h2 {
-
   font-size: 1.3em;
 }
-.a {
-    text-align: center;
+main.a {
+  color: hotpink;
 }
+a:visited {
+    color: red;
 section.a {
 
 }
