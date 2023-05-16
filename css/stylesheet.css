@@ -1,0 +1,99 @@
+@media (min-width: 300px) {
+    html {
+        background: #aaa;
+        
+    }
+
+    body {
+      
+    }
+    img {width: 100%;}
+    .article {
+      
+    }
+
+    .link_box {
+        
+    }
+}
+.condiv:hover .innerdiv {
+    cursor: pointer;
+}
+@media (min-width: 720px) {
+    html {
+        background: #ccc;
+        
+    }
+
+    .article {
+        
+    }
+
+    .link_box {}
+
+}
+
+@supports (display:flex) {
+    @media (min-width: 1050px) {
+        :root {
+            background-color: white;
+            margin: 0 auto;
+        }
+
+        .article {
+
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width:98%;
+        }
+
+        h1 {
+            position: absolute;
+            color: red;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .condiv {
+            display: flex;
+            width: 50%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .innerdiv {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #9b9b9b;
+        }
+
+        .condiv:hover .innerdiv {
+            opacity: 1;
+            cursor:pointer;
+        }
+
+        .text {
+            color: white;
+            font-size: 14pt;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+
+        }
+
+    }
+}
